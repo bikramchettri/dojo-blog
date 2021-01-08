@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import {Name} from './Name';
+import {Name as Nam} from './Name';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Name first="Bikram" last="Chettri">
-    </Name>
+    <Nam first="Bikram" last="Chettri">
+    </Nam>
   </React.StrictMode>,
   document.getElementById('root')
 );
